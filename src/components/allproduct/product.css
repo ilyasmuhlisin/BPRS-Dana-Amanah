@@ -1,0 +1,196 @@
+.coursesCard {
+  padding: 50px 0;
+}
+.coursesCard .items {
+  background-color: #fff;
+  padding: 30px;
+  text-align: center;
+}
+.coursesCard .img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #ff7200;
+  padding: 15px;
+}
+.coursesCard img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.coursesCard .text {
+  margin-left: 15px;
+  text-align: left;
+}
+.coursesCard .text h1 {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 45px;
+}
+.coursesCard .rate {
+  margin: 20px 0;
+  color: #ff7200;
+}
+.coursesCard .rate i {
+  font-size: 13px;
+  margin-right: 5px;
+}
+.coursesCard .details .dimg img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.coursesCard .details .box {
+  display: flex;
+  align-items: center;
+  color: grey;
+}
+.coursesCard .details span {
+  color: #ff7200;
+  font-weight: 500;
+  font-size: 14px;
+}
+.coursesCard .price {
+  margin: 30px 0;
+  background-color: #f8f8f8;
+  padding: 10px;
+}
+.coursesCard h3 {
+  font-weight: 500;
+  color: #ff7200;
+}
+/*-------------online---------*/
+.online {
+  text-align: center;
+}
+/* .online .box {
+  background-color: transparent;
+  padding: 30px 20px;
+  transition: 0.5s;
+  border: solid 2px grey;
+  border-radius: 5px;
+} */
+.online .img {
+  width: 40px;
+  height: 50px;
+  margin: auto;
+  position: relative;
+}
+.online img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.online h1 {
+  font-weight: 500;
+  font-size: 10px;
+  margin: 5px 0;
+  line-height: 30px;
+}
+.online span {
+  background-color: #f8f8f8;
+  padding: 5px 20px;
+  font-weight: 500;
+  font-size: 15px;
+  color: #ff7200;
+  border-radius: 5px;
+}
+
+.online .content {
+  text-align: center;
+}
+
+/* card flip */
+
+.flip-card {
+  background-color: transparent;
+  width: 200px;
+  height: 200px;
+  perspective: 1000px;
+  margin-left: 12px;
+}
+
+.flip-card-inner {
+  padding-top: 15px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  border: 2px solid #97949f80;
+  border-radius: 5px;
+}
+
+.flip-card:hover .flip-card-inner {
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front h1 {
+  font-weight: 500;
+  font-size: 12px;
+  margin: 5px 10px;
+  line-height: 30px;
+  color: black;
+}
+
+.flip-card-back h1 {
+  font-weight: 500;
+  font-size: 12px;
+  margin: 5px 10px;
+  line-height: 30px;
+  color: black;
+}
+
+.flip-card-back p {
+  line-height: normal;
+  padding: 5px 20px;
+  font-weight: 500;
+  font-size: 10px;
+  margin: auto auto;
+  color: #97949f;
+  border-radius: 5px;
+}
+
+.flip-card-back {
+  /* background-color: #2980b9; */
+  transform: rotateY(180deg);
+}
+
+/* .online .box .show {
+  opacity: 0;
+}
+.online .box:hover {
+  background-color: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  display: unset;
+}
+.online .box:hover .show {
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.online .box:hover h1 {
+  color: #fff;
+} */
+
+.online #heading text {
+  color: #009833;
+}
+/*-------------online---------*/
+@media screen and (max-width: 768px) {
+}
