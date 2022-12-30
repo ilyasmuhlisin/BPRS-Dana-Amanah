@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import { NavLink } from "react-router-dom";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -8,9 +8,9 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "./tabungan.css";
 
-
 // import required modules
 import { Navigation } from "swiper";
+import Accordion from "../accordion/Accordion";
 
 function Multi() {
   return (
@@ -18,22 +18,25 @@ function Multi() {
       <section className="tabungan">
         <div className="container gridAbout">
           <div className="left row">
-            <Swiper
-              navigation={true}
-              modules={[Navigation]}
-              className="mySwiper"
-            >
-              <SwiperSlide>
-                <img src="./images/wadiah.png" alt="" />
-              </SwiperSlide>
-            </Swiper>
-            <div className="btnBg">
-              <NavLink className="btnTab" to="/">
-                Buka Tabungan
-              </NavLink>
-            </div>
+            <Accordion />
           </div>
           <div className="right row">
+            <div>
+              <Swiper
+                navigation={true}
+                modules={[Navigation]}
+                className="mySwiper"
+              >
+                <SwiperSlide>
+                  <img src="./images/wadiah.png" alt="" />
+                </SwiperSlide>
+              </Swiper>
+              <div className="btnBg">
+                <NavLink className="btnTab" to="/">
+                  Buka Tabungan
+                </NavLink>
+              </div>
+            </div>
             <div id="heading">
               <h1>
                 Tabungan <text>iB</text> Hebat Wadiah
@@ -89,4 +92,4 @@ function Multi() {
   );
 }
 
-export default Multi
+export default Multi;

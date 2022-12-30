@@ -51,6 +51,7 @@ nav ul li a {
 }
 nav ul li a:hover {
   color: #ff7200;
+
   /* border-radius: 5px;
   box-shadow: 0 0 5px #ff7200, 0 0 10px #ff7200; */
 }
@@ -65,13 +66,22 @@ header ul ul li a.active {
   color: #ff7200;
 }
 nav ul ul {
+  padding: 0px;
   position: absolute;
-  top: 90px;
   border-top: 3px solid #ff7200;
+  top: 290px;
   opacity: 0;
   visibility: hidden;
   transition: top 0.3s;
 }
+nav ul ul.ul-tentang {
+  right: 80px;
+}
+
+/* nav ul ul.ul-berita {
+  right: 2px;
+} */
+
 nav ul ul li a {
   display: block;
 }
@@ -86,7 +96,7 @@ nav ul li:hover > ul {
 nav ul ul li {
   position: relative;
   margin: 0px;
-  width: 150px;
+  width: 120px;
   float: none;
   display: list-item;
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
@@ -96,20 +106,25 @@ nav ul ul li a {
 }
 
 nav ul ul li a.lineH {
-  line-height: 30px;
+  line-height: 25px;
+}
+
+nav ul ul ul ul li a.lineH {
+  line-height: 25px;
 }
 
 nav ul ul ul li {
   position: relative;
   top: -70px;
-  left: 150px;
+  left: 119px;
 }
 
 header ul ul ul li a.active {
   color: #ff7200;
 }
 
-.show,.show2,
+.show,
+.show2,
 .icon,
 input {
   display: none;
@@ -118,6 +133,24 @@ input {
 .fa-caret-down {
   font-size: 15px;
   margin-left: 10px;
+}
+
+/* .btn-contactBg {
+  text-align: center;
+} */
+
+.btn-contact {
+  width: 200px;
+  height: 30px;
+  text-align: center;
+  background-color: #ff6600;
+  padding: 5px 15px;
+  color: #fff;
+  border-radius: 20px;
+}
+.btn-contact:hover {
+  border: 1px solid #ff6600;
+  background-color: #fff;
 }
 
 @media all and (max-width: 968px) {
@@ -234,4 +267,7 @@ input {
   /* span.cancel:before{
     content: '\f00d';
   } */
+  .btn-contact {
+    margin-left: 20px;
+  }
 }

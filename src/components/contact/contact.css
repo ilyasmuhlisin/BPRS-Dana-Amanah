@@ -2,13 +2,18 @@
   background-color: #fff;
 }
 
+.container-contact {
+  max-width: 85%;
+  margin: auto;
+}
+
 .contacts iframe {
-  width: 100%;
+  width: 85%;
   height: 50%;
   border: none;
 }
 .contacts .right {
-  padding: 50px;
+  padding: 40px;
 }
 .contacts h1 {
   font-size: 30px;
@@ -17,13 +22,17 @@
 }
 .contacts p {
   color: grey;
+  margin-bottom: 5px;
 }
 .contacts .items {
   margin: 30px 0;
 }
+.contacts .box {
+  padding-right: 20px;
+}
 .contacts .box p {
   font-size: 14px;
-  line-height: 20px;
+  line-height: 15px;
 }
 .contacts textarea,
 .contacts input {
@@ -111,21 +120,27 @@ form .flexSB input:nth-child(1) {
   text-align: center;
 }
 
-.contacts .contact-btn button {
+.contacts .contact-btn .c-btn {
   margin: 0;
+  border: none;
   border-radius: 30px;
   width: 100px;
-  height: 50px;
+  height: 40px;
+}
+
+.contacts .contact-btn .c-btn:hover {
+  background-color: #009833;
 }
 
 @media screen and (max-width: 768px) {
-  .contacts .container {
+  .contacts .container-contact {
     flex-direction: column;
   }
   .contacts iframe {
+    width: 100%;
     height: 50vh;
   }
-  .contacts .row {
+  .contacts .row-contact {
     width: 100%;
   }
 }

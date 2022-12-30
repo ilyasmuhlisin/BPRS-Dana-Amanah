@@ -336,16 +336,20 @@ export const slideImg = [
 
 export const awrapper = [
   {
+    id: 1,
     cover: "./images/ayo.png",
   },
 
   {
+    id: 2,
     cover: "./images/ib.png",
   },
   {
+    id: 3,
     cover: "./images/lps.png",
   },
   {
+    id: 4,
     cover: "./images/ojk.png",
   },
 ];

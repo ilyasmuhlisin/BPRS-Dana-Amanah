@@ -97,7 +97,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="container-legal">
-          <hr />
+          <hr color="white"/>
           <div className="legal">
             <p>Copyright ©2022 by Internship Student</p>
           </div>

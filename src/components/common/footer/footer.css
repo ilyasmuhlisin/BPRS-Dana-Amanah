@@ -73,6 +73,9 @@ footer .logo img {
   width: 303px;
   height: 71.29px;
 }
+footer hr {
+  height: 3px;
+}
 @media screen and (max-width: 768px) {
   footer .container {
     grid-template-columns: repeat(1, 1fr);

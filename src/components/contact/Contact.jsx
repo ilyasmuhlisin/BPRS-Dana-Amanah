@@ -1,6 +1,7 @@
 import React from "react";
-import Back from "../common/back/Back";
 import "./contact.css";
+import Button from "react-bootstrap/Button";
+import Form from "react-bootstrap/Form";
 
 const Contact = () => {
   const map =
@@ -9,8 +10,8 @@ const Contact = () => {
     <>
       {/* <Back title="Contact us" /> */}
       <section className="contacts padding">
-        <div className="container flexSB">
-          <div className="left row">
+        <div className="container-contact flexSB">
+          <div className="left row-contact">
             <div className="items grid4">
               <div className="box">
                 <h4>Alamat Kantor</h4>
@@ -43,34 +44,39 @@ const Contact = () => {
             </div>
             <iframe src={map}></iframe>
           </div>
-          <div className="right row">
+          <div className="right row-contact">
             <div className="contact-title">
               <h1>Kirim Pesan</h1>
               <p>Hubungi Kami dan Temukan yang Kamu Cari</p>
             </div>
-            <form action="">
-              <label for="name">Nama</label>
-              <input type="text" name="name" placeholder="Masukkan Nama" />
-              <label for="email">Email</label>
-              <input type="email" name="email" placeholder="Masukkan Email" />
-              <label for="telepon">No. Telepon</label>
-              <input
-                type="text"
-                name="telepon"
-                placeholder="Masukkan Nomor Telepon"
-              />
-              <label for="pesan">Pesan</label>
-              <textarea
-                cols="30"
-                name="pesan"
-                rows="10"
-                placeholder="Ketikkan Pesan"
-              ></textarea>
+            <Form>
+              <Form.Group className="mb-3" controlId="formBasicNama">
+                <Form.Label>Nama</Form.Label>
+                <Form.Control type="text" placeholder="Masukkan Nama" />
+              </Form.Group>
+              <Form.Group className="mb-3" controlId="formBasicEmail">
+                <Form.Label>Email</Form.Label>
+                <Form.Control type="email" placeholder="Masukkan Email" />
+              </Form.Group>
+              <Form.Group className="mb-3" controlId="formBasicTelepon">
+                <Form.Label>No. Telepon</Form.Label>
+                <Form.Control
+                  type="text"
+                  placeholder="Masukkan Nomor Telepon"
+                />
+              </Form.Group>
+              <Form.Group className="mb-3" controlId="formBasicTelepon">
+                <Form.Label>No. Telepon</Form.Label>
+                <Form.Control
+                  as="textarea"
+                  placeholder="Masukkan Nomor Telepon"
+                  style={{ height: "100px" }}
+                />
+              </Form.Group>
               <div className="contact-btn">
-                <button className="primary-btn">Kirim</button>
+                <Button type="submit" className="primary-btn c-btn">Kirim</Button>
               </div>
-            </form>
-
+            </Form>
             {/* <h3>Follow us here</h3>
             <span>FACEBOOK TWITTER INSTAGRAM DRIBBBLE</span> */}
           </div>

@@ -11,8 +11,8 @@ function Navigation() {
             <div className="logo-img">
               <img src="./images/logo1.png" alt="" />
             </div>
-            <label for="btn" class="icon">
-              <i class="fa fa-bars"></i>
+            <label htmlFor="btn" className="icon">
+              <i className="fa fa-bars"></i>
             </label>
             <input type="checkbox" id="btn"></input>
             <ul>
@@ -20,26 +20,24 @@ function Navigation() {
                 <NavLink to="/">Home</NavLink>
               </li>
               <li>
-                <label for="btn-1" class="show">
-                  Produk<i class="fas fa-caret-down"></i>
-                </label>
-                <NavLink to="/courses">
-                  Produk<i class="fas fa-caret-down"></i>
-                </NavLink>
-                <input type="checkbox" id="btn-1"></input>
+                {/* <label htmlFor="btn-1" className="show">
+                  Produk<i className="fas fa-caret-down"></i>
+                </label> */}
+                <NavLink to="/wadiah">Produk</NavLink>
+                {/* <input type="checkbox" id="btn-1"></input>
                 <ul>
                   <li>
-                    <label for="btn-3" class="show">
-                      Simpanan<i class="fas fa-caret-down"></i>
+                    <label htmlFor="btn-3" className="show">
+                      Simpanan<i className="fas fa-caret-down"></i>
                     </label>
                     <NavLink to="/simpanan">
-                      Simpanan<i class="fas fa-caret-down"></i>
+                      Simpanan<i className="fas fa-caret-down"></i>
                     </NavLink>
                     <input type="checkbox" id="btn-3"></input>
                     <ul>
                       <li>
-                        <label for="btn-4" class="show2">
-                          Tabungan<i class="fas fa-caret-down"></i>
+                        <label htmlFor="btn-4" className="show2">
+                          Tabungan<i className="fas fa-caret-down"></i>
                         </label>
                         <NavLink to="/tabungan">Tabungan</NavLink>
                         <input type="checkbox" id="btn-4"></input>
@@ -92,17 +90,17 @@ function Navigation() {
                   <li>
                     <NavLink to="/jasa">Jasa Lainnya</NavLink>
                   </li>
-                </ul>
+                </ul> */}
               </li>
               <li>
-                <label for="btn-2" class="show">
-                  Tentang<i class="fas fa-caret-down"></i>
+                <label htmlFor="btn-2" className="show">
+                  Tentang<i className="fas fa-caret-down"></i>
                 </label>
                 <NavLink to="/about">
-                  Tentang<i class="fas fa-caret-down"></i>
+                  Tentang<i className="fas fa-caret-down"></i>
                 </NavLink>
                 <input type="checkbox" id="btn-2"></input>
-                <ul>
+                <ul className="ul-tentang">
                   <li>
                     <NavLink to="/sejarah">Sejarah</NavLink>
                   </li>
@@ -115,19 +113,19 @@ function Navigation() {
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink to="/team">Pengurus</NavLink>
+                    <NavLink to="/contact">Pengurus</NavLink>
                   </li>
                 </ul>
               </li>
               <li>
-                <label for="btn-2" class="show">
-                  Berita<i class="fas fa-caret-down"></i>
+                <label htmlFor="btn-3" className="show">
+                  Berita<i className="fas fa-caret-down"></i>
                 </label>
                 <NavLink to="/journal">
-                  Berita<i class="fas fa-caret-down"></i>
+                  Berita<i className="fas fa-caret-down"></i>
                 </NavLink>
-                <input type="checkbox" id="btn-2"></input>
-                <ul>
+                <input type="checkbox" id="btn-3"></input>
+                <ul className="ul-berita">
                   <li>
                     <NavLink className="lineH" to="/sejarah">
                       Edukasi Syariah
@@ -147,6 +145,13 @@ function Navigation() {
                     <NavLink to="/team">CSR</NavLink>
                   </li>
                 </ul>
+              </li>
+              <li>
+                <div className="btn-contactBg">
+                  <NavLink className="btn-contact" to="/contact">
+                    Contact
+                  </NavLink>
+                </div>
               </li>
             </ul>
           </div>

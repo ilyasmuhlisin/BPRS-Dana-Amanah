@@ -11,6 +11,7 @@ import "./tabungan.css";
 
 // import required modules
 import { Navigation } from "swiper";
+import Accordion from '../accordion/Accordion';
 
 function Mudharabah() {
   return (
@@ -18,22 +19,25 @@ function Mudharabah() {
       <section className="tabungan">
         <div className="container gridAbout">
           <div className="left row">
-            <Swiper
-              navigation={true}
-              modules={[Navigation]}
-              className="mySwiper"
-            >
-              <SwiperSlide>
-                <img src="./images/mudha.png" alt="" />
-              </SwiperSlide>
-            </Swiper>
-            <div className="btnBg">
-              <NavLink className="btnTab" to="/">
-                Buka Tabungan
-              </NavLink>
-            </div>
+            <Accordion/>
           </div>
           <div className="right row">
+            <div>
+              <Swiper
+                navigation={true}
+                modules={[Navigation]}
+                className="mySwiper"
+              >
+                <SwiperSlide>
+                  <img src="./images/mudha.png" alt="" />
+                </SwiperSlide>
+              </Swiper>
+              <div className="btnBg">
+                <NavLink className="btnTab" to="/">
+                  Buka Tabungan
+                </NavLink>
+              </div>
+            </div>
             <div id="heading">
               <h1>
                 Tabungan <text>iB</text> Hebat Wadiah

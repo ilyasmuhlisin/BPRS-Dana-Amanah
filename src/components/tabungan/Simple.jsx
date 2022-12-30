@@ -8,9 +8,9 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "./tabungan.css";
 
-
 // import required modules
 import { Navigation } from "swiper";
+import Accordion from "../accordion/Accordion";
 
 function Simple() {
   return (
@@ -18,6 +18,9 @@ function Simple() {
       <section className="tabungan">
         <div className="container gridAbout">
           <div className="left row">
+            <Accordion />
+          </div>
+          <div className="right row">
             <Swiper
               navigation={true}
               modules={[Navigation]}
@@ -32,8 +35,6 @@ function Simple() {
                 Buka Tabungan
               </NavLink>
             </div>
-          </div>
-          <div className="right row">
             <div id="heading">
               <h1>
                 Tabungan <text>iB</text> Hebat Wadiah
