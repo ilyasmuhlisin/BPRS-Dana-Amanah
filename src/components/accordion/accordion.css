@@ -109,10 +109,18 @@
     margin-bottom: 30px;
     text-align: center;
   }
-  .container-acc h1{
+  .container-acc h1 {
     text-align: center;
   }
   .accordion__faq {
     margin-left: 82px;
+  }
+  .accordion__faq ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .accordion__faq ul li a{
+    margin-right: 10px;
   }
 }

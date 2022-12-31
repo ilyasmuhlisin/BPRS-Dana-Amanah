@@ -31,11 +31,11 @@ const Footer = () => {
                 <b>Follow Us</b>
               </h4>
             </div>
-            {/* <div>
-              <i className="fab fa-facebook-f icon"></i>
-              <i className="fab fa-twitter icon"></i>
-              <i className="fab fa-instagram icon"></i>
-            </div> */}
+            <div className="foot-icon">
+              <i className="fab fa-facebook-f"></i>
+              <i className="fab fa-twitter"></i>
+              <i className="fab fa-instagram"></i>
+            </div>
           </div>
           {/* <div className='box link'>
             <h3>Explore</h3>
@@ -97,7 +97,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="container-legal">
-          <hr color="white"/>
+          <hr color="white" />
           <div className="legal">
             <p>Copyright ©2022 by Internship Student</p>
           </div>

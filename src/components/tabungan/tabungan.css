@@ -42,8 +42,8 @@
 
 .tabungan .gridAbout {
   display: grid;
-  grid-template-columns: 45% 55%;
-  grid-gap: 20px;
+  grid-template-columns: 40% 60%;
+  grid-gap: 0px;
 }
 
 /* .tabungan .gridAbout .left {
