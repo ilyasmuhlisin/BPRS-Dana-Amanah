@@ -58,13 +58,13 @@ const Footer = () => {
                 <h5>
                   (<i>Jam Operasional</i>)
                 </h5>
-                <p>Senin-Jum'at | 0.8.00 - 16.30</p>
+                <p>Senin-Jum'at | 08.00 - 16.30</p>
               </div>
               <div>
                 <h5>
                   (<i>Jam Kas Teller</i>)
                 </h5>
-                <p>Senin-Jum'at | 0.8.00 - 16.00</p>
+                <p>Senin-Jum'at | 08.00 - 16.00</p>
               </div>
             </div>
             <div className="titleAddress">

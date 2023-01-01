@@ -1,22 +1,26 @@
-import React from "react"
-import Back from "../common/back/Back"
-import TeamCard from "./TeamCard"
-import "./team.css"
-import Awrapper from "../about/Data"
-import "../about/about.css"
+import React from "react";
+import TeamCard from "./TeamCard";
+import "./team.css";
+import "../about/about.css";
 
 const Team = () => {
   return (
     <>
-      <Back title='Team' />
-      <section className='team padding'>
-        <div className='container grid'>
+      <section className="team padding">
+        <div className="team-img">
+          <img src="./images/struktur.jpg" alt="" />
+        </div>
+        <div className="team-title">
+          <h1>
+            Pengurus BPRS Dana Amanah <br /> Surakarta
+          </h1>
+        </div>
+        <div className="container gridT">
           <TeamCard />
         </div>
       </section>
-      <Awrapper />
     </>
-  )
-}
+  );
+};
 
-export default Team
+export default Team;

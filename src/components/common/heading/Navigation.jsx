@@ -107,13 +107,15 @@ function Navigation() {
                   <li>
                     <NavLink to="/visi">Visi Misi</NavLink>
                   </li>
-                  <li>
+                  {/* <li>
                     <NavLink className="lineH" to="/organisasi">
                       Struktur Organisasi
                     </NavLink>
-                  </li>
+                  </li> */}
                   <li>
-                    <NavLink to="/contact">Pengurus</NavLink>
+                    <NavLink className="lineH" to="/team">
+                      Struktur dan Pengurus
+                    </NavLink>
                   </li>
                 </ul>
               </li>

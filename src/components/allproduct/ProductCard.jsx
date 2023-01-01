@@ -1,6 +1,7 @@
 import React from "react";
 import "./product.css";
 import { online } from "../../dummydata";
+import { Link } from "react-router-dom";
 
 const ProductCard = () => {
   return (
@@ -19,17 +20,19 @@ const ProductCard = () => {
           <div className="content grid">
             {online.map((val) => (
               <div className="flip-card">
-                <div className="flip-card-inner">
-                  <div className="flip-card-front">
-                    <img src={val.cover} className="img" />
-                    <h1>{val.courseName}</h1>
+                <Link to={val.path}>
+                  <div className="flip-card-inner">
+                    <div className="flip-card-front">
+                      <img src={val.cover} className="img" />
+                      <h1>{val.courseName}</h1>
+                    </div>
+                    <div className="flip-card-back">
+                      <img src={val.hoverCover} alt="" className="img" />
+                      <h1>{val.courseName}</h1>
+                      <p>{val.course}</p>
+                    </div>
                   </div>
-                  <div className="flip-card-back">
-                    <img src={val.hoverCover} alt="" className="img" />
-                    <h1>{val.courseName}</h1>
-                    <p>{val.course}</p>
-                  </div>
-                </div>
+                </Link>
               </div>
             ))}
           </div>

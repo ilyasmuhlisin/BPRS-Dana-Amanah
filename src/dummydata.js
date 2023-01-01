@@ -148,48 +148,6 @@ export const coursesCard = [
   },
 ];
 
-export const team = [
-  {
-    cover: "./images/team/t1.webp",
-    name: "Ph.D Adrian Molises",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
-  },
-  {
-    cover: "./images/team/t2.webp",
-    name: "Ph.D Arthur MaGregor",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
-  },
-  {
-    cover: "./images/team/t3.webp",
-    name: "Ph.D Anna Hanzen",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
-  },
-  {
-    cover: "./images/team/t4.webp",
-    name: "Ph.D Brian Wooden",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
-  },
-  {
-    cover: "./images/team/t5.webp",
-    name: "Ph.D Adrian Molises",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
-  },
-  {
-    cover: "./images/team/t6.webp",
-    name: "Ph.D Arthur MaGregor",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
-  },
-  {
-    cover: "./images/team/t7.webp",
-    name: "Ph.D Anna Hanzen",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
-  },
-  {
-    cover: "./images/team/t8.webp",
-    name: "Ph.D Brian Wooden",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
-  },
-];
 export const price = [
   {
     name: "BASIC PLAN",
@@ -361,6 +319,7 @@ export const online = [
     courseName: "Tabungan Wadiah",
     course:
       "Tabungan iB Amanah adalah tabungan dengan akad Wadiah yang aman, dijamin Lembaga Penjamin LPS.",
+    path: "wadiah",
   },
   {
     cover: "./images/lgGreen.png",
@@ -368,6 +327,7 @@ export const online = [
     courseName: "Tabungan Mudharabah",
     course:
       "Tabungan Mudharabah adalah tabungan dengan Akad Mudharabah yang aman, dijamin Lembaga Penjamin LPS.",
+    path: "mudharabah",
   },
   {
     cover: "./images/lgGreen.png",
@@ -375,6 +335,7 @@ export const online = [
     courseName: "Tabungan Rencana Ibadah",
     course:
       "Tabungan Rencana Ibadah adalah tabungan dengan Akad Mudharabah yang aman, dijamin Lembaga Penjamin LPS.",
+    path: "ibadah",
   },
   {
     cover: "./images/lgGreen.png",
@@ -382,6 +343,7 @@ export const online = [
     courseName: "Tabungan Rencana Pendidikan",
     course:
       "Tabungan Rencana Ibadah adalah tabungan dengan Akad Mudharabah yang aman, dijamin Lembaga Penjamin LPS.",
+    path: "pendidikan",
   },
   {
     cover: "./images/lgGreen.png",
@@ -389,6 +351,7 @@ export const online = [
     courseName: "Tabungan Rencana Pensiun",
     course:
       "Tabungan Rencana Ibadah adalah tabungan dengan Akad Mudharabah yang aman, dijamin Lembaga Penjamin LPS.",
+    path: "pensiun",
   },
   {
     cover: "./images/lgGreen.png",
@@ -396,6 +359,7 @@ export const online = [
     courseName: "Tabungan Simpel",
     course:
       "Tabungan Simpel adalah tabungan dengan Akad Wadiah yang aman, dijamin Lembaga Penjamin LPS.",
+    path: "simple",
   },
   {
     cover: "./images/lgGreen.png",
@@ -403,6 +367,7 @@ export const online = [
     courseName: "Tabungan Asuh",
     course:
       "Tabungan Asuh adalah tabungan dengan Akad Wadiah yang aman, dijamin Lembaga Penjamin LPS.",
+    path: "asuh",
   },
   {
     cover: "./images/lgGreen.png",
@@ -410,6 +375,7 @@ export const online = [
     courseName: "Tabungan Berhadiah",
     course:
       "Tabungan Rencana Berhadiah adalah tabungan dengan Akad Mudharabah yang aman, dijamin Lembaga Penjamin LPS.",
+    path: "berhadiah",
   },
 ];
 
@@ -483,5 +449,207 @@ export const tabungan = [
   },
   {
     cover: "./images/ojk.png",
+  },
+];
+
+export const team = [
+  {
+    cover: "./images/team/robbani.jpeg",
+    name: "Abdullah Rabbani, S.E",
+    work: "Komisaris Utama",
+    riwayatPend1: "Jurusan Manajemen, STIE IEU Yogyakarta (2003)",
+    riwayatPend2: "",
+    riwayatPend3: "",
+    riwayatPend4: "",
+    riwayatPek: [
+      {
+        subRiw: "Komisaris Utama",
+        sub: "PT BPRS Dana Amanah Surakarta (2016 – sekarang)",
+      },
+      {
+        subRiw: "pengurus",
+        sub: "KSPPS BMT Mitra Mandiri (2016 – sekarang)",
+      },
+      {
+        subRiw: "",
+        sub: "",
+      },
+      {
+        subRiw: "",
+        sub: "",
+      },
+      {
+        subRiw: "",
+        sub: "",
+      },
+    ],
+  },
+  {
+    cover: "./images/team/suprihatin.jpeg",
+    name: "Suprihatin, SE.MM",
+    work: "Komisaris",
+    riwayatPend1:
+      "S1 Fakultas Ekonomi Manajemen, STIE Wijaya Mulya Surakarta (2010)",
+    riwayatPend2: "Pasca Sarjana Fakultas Manajemen STIE AUB Surakarta (2016)",
+    riwayatPend3: "",
+    riwayatPend4: "",
+    riwayatPek: [
+      {
+        subRiw: "Komisaris Utama",
+        sub: "PT BPRS Dana Amanah Surakarta (2016 – sekarang)",
+      },
+      {
+        subRiw: "Pengurus",
+        sub: "KSPPS BMT Mitra Mandiri (2004 – 2016)",
+      },
+      {
+        subRiw: "Marketing",
+        sub: "KJKS BMT WAHANA (1996 – 2004)",
+      },
+      {
+        subRiw: "",
+        sub: "",
+      },
+      {
+        subRiw: "",
+        sub: "",
+      },
+    ],
+  },
+  {
+    cover: "./images/team/fuadi.jpeg",
+    name: "Ust. Dr. Rial Fu’adi, S.Ag, M.Ag.",
+    work: "Dewan Pengawas Syariah Utama",
+    riwayatPend1: "Fakultas Syariah, UIN Suka  Yogyakarta",
+    riwayatPend2: "Fakultas Hukum Islam, UIN Suka  Yogyakarta (2000)",
+    riwayatPend3:
+      "Program Studi Hukum Ekonomi Islam, UIN Suka  Yogyakarta (2019)",
+    riwayatPend4: "",
+    riwayatPek: [
+      {
+        subRiw: "Dewan Pengawas Syariah",
+        sub: "BPRS Dana Amanah Surakarta ( 20 – Sekarang)",
+        sub2: "BPRS Central Syariah Utama Surakarta ( 20 – Sekarang)",
+        sub3: "Solo Peduli (2000)",
+      },
+      {
+        subRiw: "Dosen",
+        sub: "UIN Raden Mas Said Surakarta (2000 – sekarang)",
+      },
+      {
+        subRiw: "",
+        sub: "",
+      },
+      {
+        subRiw: "",
+        sub: "",
+      },
+      {
+        subRiw: "",
+        sub: "",
+      },
+    ],
+  },
+  {
+    cover: "./images/team/hasan.png",
+    name: "Dr.H. Moh Abdul Kholiq Hasan, Lc, M.A, M.Ed.",
+    work: "Dewan Pengawas Syariah",
+    riwayatPend1: "S1 Fakultas Ushuludin, Al-Azhar Univ. Kairo (1999)",
+    riwayatPend2: "S2 Fakultas Ushuludin,Islamic Omdum Univ. Sudan (2004)",
+    riwayatPend3:
+      "S2 Fakultas Pengajaran Bahasa Arab Institut Liga Arab Khurtum (2005)",
+    riwayatPend4:
+      "S3 Islamic Studies Al-Qur’an Al-karim & Islamic Science Univ. Sudan (2007)",
+    riwayatPek: [
+      {
+        subRiw: "Dewan Pengawas Syariah",
+        sub: "PT BPRS Dana Amanah Surakarta (2013 – sekarang)",
+        sub2: "BPRS Central Syariah Utama Surakarta (2012 – 2020)",
+      },
+      {
+        subRiw: "Dosen",
+        sub: "UIN Raden Mas Said Surakarta (2008 – Sekarang)",
+        sub2: "Program Doktoral UMY (2007 – 2012)",
+        sub3: "Program Magister MHS UMS (2006 – Sekarang)",
+        sub4: "Pasca Sarjana UIN Yogyakarta (2007 – 2010)",
+      },
+      {
+        subRiw: "",
+        sub: "",
+      },
+      {
+        subRiw: "",
+        sub: "",
+      },
+      {
+        subRiw: "",
+        sub: "",
+      },
+    ],
+  },
+  {
+    cover: "./images/team/karsono.png",
+    name: "Karsono, SE",
+    work: "Direktur Utama",
+    riwayatPend1: "Keuangan dan Perbankan, Politeknik ITB (1992)",
+    riwayatPend2:
+      "Fakultas Ekonomi Manajemen, Universitas Islam Nusantara (2002)",
+    riwayatPend3: "",
+    riwayatPend4: "",
+    riwayatPek: [
+      {
+        subRiw: "      Area Manager Kalimantan",
+        sub: "Bank Muamalat  (2016 – 2018)",
+      },
+      {
+        subRiw: "Branch Manager",
+        sub: "Bank Muamalat  (2006 – 2016)",
+      },
+      {
+        subRiw: "Sub Branch Manager",
+        sub: "Bank Muamalat  (2003 – 2006)",
+      },
+      {
+        subRiw: "Account Manager",
+        sub: "Bank Muamalat  (2000 – 2003)",
+      },
+      {
+        subRiw: "Back Office",
+        sub: "Bank Muamalat  (1994 – 2000)",
+      },
+    ],
+  },
+  {
+    cover: "./images/team/ida.jpg",
+    name: "Ida Nihayah, SE. Ak",
+    work: "Direktur Utama",
+    riwayatPend1:
+      "S1 Fakultas  Ekonomi  Universitas  Sebelas  Maret  Surakarta Jurusan Akuntansi (2004)",
+    riwayatPend2:
+      "S2 Magister Akuntansi Universutas Sebelas Maret konsentrasi Akuntansi Syariah",
+    riwayatPend3: "",
+    riwayatPend4: "",
+    riwayatPek: [
+      {
+        subRiw: "Senior Relationship Manager",
+        sub: "Bank Muamalat (2017 – 2018)",
+      },
+      {
+        subRiw: "Financing Risk Officer Regional",
+        sub: "Bank Muamalat (2011 – 2017)",
+      },
+      {
+        subRiw: "Sub  Branch  Manager  (SBM)",
+        sub: "Bank Muamalat (2010 – 2011)",
+      },
+      {
+        subRiw: "Account Manager",
+        sub: "Bank Muamalat (2005 – 2010)",
+      },
+      {
+        subRiw: "Back Office",
+        sub: "Bank Muamalat (2004 – 2005)",
+      },
+    ],
   },
 ];
