@@ -58,7 +58,7 @@ function Berhadiah() {
             </div>
             <div id="heading">
               <h1>
-                Tabungan <text>iB</text> Hebat Wadiah
+                Tabungan <text>iB</text> Hebat Berhadiah
               </h1>
             </div>
             <div className="items">

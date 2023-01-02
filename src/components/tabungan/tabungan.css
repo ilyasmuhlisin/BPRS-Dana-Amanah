@@ -133,6 +133,7 @@
 }
 .tabungan .item h4 {
   font-weight: 500;
+  font-size: 20px;
   margin-bottom: 10px;
 }
 
@@ -177,7 +178,13 @@ td {
 .table1 tr:nth-child(even) {
   background-color: #f2f2f2;
 }
-
+.jasa-title {
+  text-align: center;
+  margin: 60px 0px;
+}
+.container-jasa {
+  margin: 0px 200px;
+}
 /*----------data------------*/
 @media screen and (max-width: 768px) {
   .tabungan .gridAbout {
@@ -210,4 +217,7 @@ td {
   .data {
     height: 50vh;
   }
+  .container-jasa {
+  margin: 0px 0px;
+}
 }

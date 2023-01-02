@@ -27,7 +27,7 @@ function Simple() {
               className="mySwiper"
             >
               <SwiperSlide>
-                <img src="./images/wadiah.png" alt="" />
+                <img src="./images/simple.png" alt="" />
               </SwiperSlide>
             </Swiper>
             <div className="btnBg">
@@ -37,48 +37,101 @@ function Simple() {
             </div>
             <div id="heading">
               <h1>
-                Tabungan <text>iB</text> Hebat Wadiah
+                Tabungan <text>iB</text> Hebat Simple
               </h1>
             </div>
             <div className="items">
               <div className="item">
                 <p>
-                  Tabungan iB Hebat Wadiah adalah Produk Tabungan yang
-                  dikeluarkan BPRS DANA AMANAH (BDA) yang dimiliki oleh Nasabah
-                  Perorangan maupun Lembaga. Produk ini hanya tersedia dalam
-                  prinsip syariah dengan menggunakan akad Wadiah yad dhamanah.
-                  Produk Tabungan ini dijamin LPS (Lembaga Penjamin Simpanan)
-                  dengan maksimal Tabungan Rp. 2 Milyar.
+                  Tabungan iB Hebat SIMPEL adalah Produk Tabungan yang
+                  dikeluarkan BPRS DANA AMANAH [BDA] yang dimiliki oleh Nasabah
+                  Perorangan yang sesuai namanya SIMPEL (Simpanan Pelajar)
+                  produk ini di khususkan untuk para pelajar mulai dari PAUD,
+                  TK, SD, SLTP & SLTA atau sederajat. Produk ini hanya tersedia
+                  dalam prinsip syariah dengan menggunakan akad Wadiah yad
+                  dhamanah.
+                  <p>
+                    Produk Tabungan ini dijamin LPS (Lembaga Penjamin Simpanan)
+                    dengan maksimal Tabungan Rp. 2 Milyar.
+                  </p>
+                </p>
+              </div>
+
+              <div className="item">
+                <h2>Tujuan Produk</h2>
+                <p>
+                  <h4>Budaya Menabung</h4>
+                  <ul>
+                    <li>
+                      Menciptakan budaya gemar menabung dan melatih pengelolaan
+                      keuangan sejak dini.
+                    </li>
+                  </ul>
+                </p>
+                <p>
+                  <h4>Pengembangan Aset</h4>
+                  <ul>
+                    <li>
+                      Mengajarkan kepada siswa untuk dapat memiliki dan
+                      mengembangkan kekayaan sendiri dengan cara menabung.
+                    </li>
+                  </ul>
+                </p>
+                <p>
+                  <h4>Literasi Keuangan</h4>
+                  <ul>
+                    <li>
+                      Meningkatkan pengetahuan dan pemahaman kepada siswa, orang
+                      tua dan komunitas sekolah mengenai layanan keuangan
+                      khususnya produk tabungan.
+                    </li>
+                  </ul>
+                </p>
+                <p>
+                  <h4>Inklusi Keuangan</h4>
+                  <ul>
+                    <li>
+                      Meningkatkan akses keuangan yang mudah dijangkau, biaya
+                      ringan, dan fituryang menarik bagi siswa.
+                    </li>
+                  </ul>
                 </p>
               </div>
               <div className="item">
-                <h2>Syarat dan Ketentuan</h2>
+                <h2>Manfaat Produk</h2>
                 <p>
-                  <h4>Persyaratan</h4>
+                  <h4>Bagi Siswa</h4>
                   <ul>
-                    <li>Persyaratan Foto copy KTP/SIM/Pasport</li>
-                    <li>Mengisi Formulir pembukaan rekening</li>
+                    <li>Edukasi keuangan bagi siswa.</li>
+                    <li>Mendorong budaya gemar menabung.</li>
+                    <li>Melatih pengelolaan keuangan sejak dini.</li>
                   </ul>
                 </p>
                 <p>
-                  <h4>Fasilitas</h4>
+                  <h4>Bagi Orang Tua</h4>
                   <ul>
-                    <li>Mendapatkan buku tabungan</li>
+                    <li>Memberi edukasi keuangan tentang produk tabungan.</li>
                     <li>
-                      Mendapatkan pelayanan prima dengan system jemput bola
+                      Mengajarkan kemandirian dan kedisiplinan anak dalam
+                      mengelola keuangan.
                     </li>
                     <li>
-                      Dana aman, terdaftar dan di awasi oleh OJK serta di jamin
-                      oleh Lembaga Penjamin Simpanan (LPS)
+                      Memudahkan orang tua untuk mengontrol pengeluaran anak.
                     </li>
                   </ul>
                 </p>
                 <p>
-                  <h4>Biaya - Biaya</h4>
+                  <h4>Bagi Sekolah</h4>
                   <ul>
-                    <li>Biaya administrasi bulanan sebesar Rp 0,-</li>
-                    <li>Biaya penutupan rekening sebesar Rp 10.000,-</li>
-                    <li>Setoran pertama Rp. 50.000,</li>
+                    <li>
+                      Sarana edukasi praktis keuangan dan perbankan bagi siswa
+                      dan Guru.
+                    </li>
+                    <li>Menumbuhkan budaya menabung di sekolah.</li>
+                    <li>
+                      Sarana sistem pembayaran dan pengelolaan keuangan yang
+                      efektif dan efesien di lingkungan sekolah.
+                    </li>
                   </ul>
                 </p>
               </div>

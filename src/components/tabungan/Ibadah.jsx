@@ -39,49 +39,25 @@ function Ibadah() {
             </div>
             <div id="heading">
               <h1>
-                Tabungan <text>iB</text> Hebat Wadiah
+                Tabungan <text>iB</text> Hebat Rencana ibadah
               </h1>
             </div>
             <div className="items">
               <div className="item">
                 <p>
-                  Tabungan iB Hebat Wadiah adalah Produk Tabungan yang
-                  dikeluarkan BPRS DANA AMANAH (BDA) yang dimiliki oleh Nasabah
-                  Perorangan maupun Lembaga. Produk ini hanya tersedia dalam
-                  prinsip syariah dengan menggunakan akad Wadiah yad dhamanah.
-                  Produk Tabungan ini dijamin LPS (Lembaga Penjamin Simpanan)
-                  dengan maksimal Tabungan Rp. 2 Milyar.
-                </p>
-              </div>
-              <div className="item">
-                <h2>Syarat dan Ketentuan</h2>
-                <p>
-                  <h4>Persyaratan</h4>
-                  <ul>
-                    <li>Persyaratan Foto copy KTP/SIM/Pasport</li>
-                    <li>Mengisi Formulir pembukaan rekening</li>
-                  </ul>
-                </p>
-                <p>
-                  <h4>Fasilitas</h4>
-                  <ul>
-                    <li>Mendapatkan buku tabungan</li>
-                    <li>
-                      Mendapatkan pelayanan prima dengan system jemput bola
-                    </li>
-                    <li>
-                      Dana aman, terdaftar dan di awasi oleh OJK serta di jamin
-                      oleh Lembaga Penjamin Simpanan (LPS)
-                    </li>
-                  </ul>
-                </p>
-                <p>
-                  <h4>Biaya - Biaya</h4>
-                  <ul>
-                    <li>Biaya administrasi bulanan sebesar Rp 0,-</li>
-                    <li>Biaya penutupan rekening sebesar Rp 10.000,-</li>
-                    <li>Setoran pertama Rp. 50.000,</li>
-                  </ul>
+                  Tabungan iB Hebat Rencana Ibadah adalah Produk Tabungan
+                  Rencana yang dikeluarkan oleh BPRS DANA AMANAH [BDA],
+                  dikhususkan untuk Nasabah Perorangan yang memiliki perencanaan
+                  keuangan untuk Ibadah dengan menabung secara rutin setiap
+                  bulan dan dengan nominal tertentu serta merencanakan tabungan
+                  tersebut untuk Ibadah tertentu, misal untuk Ibadah Umroh,
+                  Ibadah Haji, Kurban dan ibadah – ibadah lainnya. Produk ini
+                  berdasar prinsip syariah islam dengan menggunakan akad
+                  mudharabah.
+                  <p>
+                    Produk Tabungan ini dijamin LPS (Lembaga Penjamin Simpanan)
+                    dengan maksimal Tabungan Rp. 2 Milyar.
+                  </p>
                 </p>
               </div>
             </div>

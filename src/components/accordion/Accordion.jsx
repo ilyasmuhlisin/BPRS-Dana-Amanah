@@ -82,25 +82,25 @@ function Accordion() {
                       <p>
                         <ul>
                           <li>
-                            <Link to="/">{item.subTitle1}</Link>
+                            <Link to="/sergur">{item.subTitle1}</Link>
                           </li>
                           <li>
-                            <Link to="/">{item.subTitle2}</Link>
+                            <Link to="/develop">{item.subTitle2}</Link>
                           </li>
                           <li>
-                            <Link to="/">{item.subTitle3}</Link>
+                            <Link to="/aset">{item.subTitle3}</Link>
                           </li>
                           <li>
-                            <Link to="/">{item.subTitle4}</Link>
+                            <Link to="/syariah">{item.subTitle4}</Link>
                           </li>
                           <li>
-                            <Link to="/">{item.subTitle5}</Link>
+                            <Link to="/haji">{item.subTitle5}</Link>
                           </li>
                           <li>
-                            <Link to="/">{item.subTitle6}</Link>
+                            <Link to="/umroh">{item.subTitle6}</Link>
                           </li>
                           <li>
-                            <Link to="/">{item.subTitle7}</Link>
+                            <Link to="/emas">{item.subTitle7}</Link>
                           </li>
                         </ul>
                       </p>
@@ -137,7 +137,7 @@ function Accordion() {
                       </p>
                     </div>
                     <div className="sub-item2">
-                      <Link to="/">
+                      <Link to="/deposito">
                         <h3>{item.subT2}</h3>
                       </Link>
                     </div>
@@ -148,7 +148,7 @@ function Accordion() {
           ))}
           <div className="accordion__box">
             <div className="accordion__faq-heading">
-              <Link to="/">
+              <Link to="/jasa">
                 <h3 className="">Jasa Lainnya</h3>
               </Link>
             </div>

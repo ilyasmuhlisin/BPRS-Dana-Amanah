@@ -40,7 +40,7 @@ function Mudharabah() {
             </div>
             <div id="heading">
               <h1>
-                Tabungan <text>iB</text> Hebat Wadiah
+                Tabungan <text>iB</text> Hebat Mudharabah
               </h1>
             </div>
             <div className="items">
