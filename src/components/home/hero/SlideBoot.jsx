@@ -9,7 +9,7 @@ function SlideBoot() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="./images/blog/b2.webp"
+            src="./images/tmp.png"
             alt="First slide"
           />
           {/* <Carousel.Caption>
@@ -20,7 +20,7 @@ function SlideBoot() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="./images/blog/b3.webp"
+            src="./images/tmp.png"
             alt="Second slide"
           />
 
@@ -32,7 +32,7 @@ function SlideBoot() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="./images/blog/b5.webp"
+            src="./images/tmp.png"
             alt="Third slide"
           />
 
